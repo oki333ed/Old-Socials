@@ -1,0 +1,22 @@
+{
+    "children": {
+        "node": {
+            "social-media-menu": {
+                "children": {
+                    "node": {
+                        "twitch-button": {
+                            "attributes": {
+                                "visible": false
+                            }
+                        },
+                        "discord-button": {
+                            "attributes": {
+                                "visible": false
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
