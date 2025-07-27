@@ -1,0 +1,21 @@
+{
+	"geode": "4.7.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "oki3ed.old-socials",
+	"name": "Old Socials",
+	"version": "v1.0.0",
+	"developer": "oki3ed",
+	"description": "Removes Discord and Twitch buttons.",
+	"tags": [
+		"offline"
+	],
+	"links": {
+		"source": "https://github.com/oki333ed/Old-Socials",
+		"homepage": "https://oki333ed.rf.gd"
+	}
+}
