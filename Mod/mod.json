@@ -8,14 +8,29 @@
 	},
 	"id": "oki3ed.old-socials",
 	"name": "Old Socials",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "oki3ed",
-	"description": "Removes Discord and Twitch buttons.",
+	"description": "Allows you to install socials of other versions.",
 	"tags": [
 		"offline"
 	],
 	"links": {
 		"source": "https://github.com/oki333ed/Old-Socials",
 		"homepage": "https://oki333ed.rf.gd"
+	},
+	"settings": {
+		"version": {
+			"name": "Version",
+			"one-of": ["1.0 - 1.2", "1.3 - 1.8", "1.9 - 2.1", "2.2"],
+			"description": "Socials version\n\n2.2 = Facebook, Twitter, YouTube, Twitch, Discord\n\n1.9 - 2.1 = Facebook, Twitter, YouTube\n\n1.3 - 1.8 = Facebook, Twitter\n\n1.0 - 1.2 = None",
+			"type": "string",
+			"default": "2.2"
+		},
+		"robtop-logo": {
+			"name": "RobTop Logo",
+			"description": "RobTop Logo",
+			"type": "bool",
+			"default": true
+		}
 	}
 }
